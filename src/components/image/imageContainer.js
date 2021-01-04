@@ -36,7 +36,7 @@ const ImageContainer = () => {
         });
         setProducts(ProductDatabase);
     ProductDatabase.forEach((detail) => {
-     if (detail.iD == iD) {
+     if (detail.iD === iD) {
        setLoading(false)
        setDet(detail)
      }
