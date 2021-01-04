@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react"
 import NavBar from "./components/NavBar"
 import Home from "./Containers/HomeContainer"
 import ItemDetailContainer from "./components/ItemScreen/ItemDetailContainer"
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom"
 import {AppProvider} from './Context/useAppContext';
 
 import Cart from "./components/Cart/Cart"
@@ -45,11 +45,14 @@ function App() {
   <Router>
    <NavBar/>
     <Switch>
-      <Route path="/productos/:category/:iD" component={ItemDetailContainer}/>
-      <Route path="/" exact component={Home}/>
-      <Route path="/imagenes/:iD" exact component={ImageContainer}/>
-      <Route path="/categoria/:cat" exact component={CategoryContainer}/>
-      <Route path="/carrito" exact component={Cart}/>
+      <Route path="/SCS-Store/productos/:category/:iD" component={ItemDetailContainer}/>
+      <Route path="/" exact component={Home}>
+        <Redirect to="/SCS-Store" exact component={Home}/>
+      </Route>
+      <Route path="/SCS-Store" exact component={Home}/>
+      <Route path="/SCS-Store/imagenes/:iD" exact component={ImageContainer}/>
+      <Route path="/SCS-Store/categoria/:cat" exact component={CategoryContainer}/>
+      <Route path="/SCS-Store/carrito" exact component={Cart}/>
       <Route component={NotFoundPage} />
       </Switch>
       </Router>
