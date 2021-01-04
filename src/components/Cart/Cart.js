@@ -12,7 +12,7 @@ function NoItems () {
     return (
         <div className="no-items-div">
                 <p>No tienes artículos en el carrito</p>
-                <Link to="/" className="button primary">Descubrir prendas</Link>
+                <Link to="/SCS-Store" className="button primary">Descubrir prendas</Link>
         </div>
     )
 }

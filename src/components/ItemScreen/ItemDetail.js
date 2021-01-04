@@ -7,7 +7,7 @@ const UnexistentProduct = () => {
   return(
     <div className="no-items-div">
       <p>El producto que buscas no está disponible.</p>
-      <Link to="/" className="button primary">Descubrir prendas</Link>
+      <Link to="/SCS-Store" className="button primary">Descubrir prendas</Link>
     </div>
   )
 }
@@ -40,7 +40,7 @@ export default function ItemDetail({detail}){
           return <div className="detail-container" key={detail.id}>
           <article className="item-detail">
              <div className="item-detail-left-side">
-              <Link to={`/imagenes/` + detail.iD}> <img src={detail.image}/></Link>
+              <Link to={`/SCS-Store/imagenes/` + detail.iD}> <img src={detail.image}/></Link>
                  <h1>{detail.product}</h1>   
              </div>
             <div className="item-detail-right-side">
@@ -57,7 +57,7 @@ export default function ItemDetail({detail}){
                 </span>
               </div>
             <div className="add-to-cart-div">
-            <Link to="/carrito" onClick={addProductToCart} className="button secondary">Añadir al carrito</Link>
+            <Link to="/SCS-Store/carrito" onClick={addProductToCart} className="button secondary">Añadir al carrito</Link>
             </div>
             </div>
          </article>

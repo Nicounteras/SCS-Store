@@ -14,7 +14,7 @@ import ImageContainer from './components/image/imageContainer';
 const NotFoundPage = () => {
   return <div className="no-items-div">
   <p>La URL que introdujiste es inválida.</p>
-  <Link to="/" className="button primary">Volver al inicio</Link>
+  <Link to="/SCS-Store" className="button primary">Volver al inicio</Link>
 </div>
 } 
 
