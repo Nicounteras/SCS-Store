@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/SCS-Store/static/css/main.b86fcc04.chunk.css",
-    "main.js": "/SCS-Store/static/js/main.4cb8d073.chunk.js",
-    "main.js.map": "/SCS-Store/static/js/main.4cb8d073.chunk.js.map",
+    "main.js": "/SCS-Store/static/js/main.af7b0048.chunk.js",
+    "main.js.map": "/SCS-Store/static/js/main.af7b0048.chunk.js.map",
     "runtime-main.js": "/SCS-Store/static/js/runtime-main.512e67f9.js",
     "runtime-main.js.map": "/SCS-Store/static/js/runtime-main.512e67f9.js.map",
-    "static/js/2.52e9f9fa.chunk.js": "/SCS-Store/static/js/2.52e9f9fa.chunk.js",
-    "static/js/2.52e9f9fa.chunk.js.map": "/SCS-Store/static/js/2.52e9f9fa.chunk.js.map",
+    "static/js/2.6bb83603.chunk.js": "/SCS-Store/static/js/2.6bb83603.chunk.js",
+    "static/js/2.6bb83603.chunk.js.map": "/SCS-Store/static/js/2.6bb83603.chunk.js.map",
     "index.html": "/SCS-Store/index.html",
     "static/css/main.b86fcc04.chunk.css.map": "/SCS-Store/static/css/main.b86fcc04.chunk.css.map",
-    "static/js/2.52e9f9fa.chunk.js.LICENSE.txt": "/SCS-Store/static/js/2.52e9f9fa.chunk.js.LICENSE.txt"
+    "static/js/2.6bb83603.chunk.js.LICENSE.txt": "/SCS-Store/static/js/2.6bb83603.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.512e67f9.js",
-    "static/js/2.52e9f9fa.chunk.js",
+    "static/js/2.6bb83603.chunk.js",
     "static/css/main.b86fcc04.chunk.css",
-    "static/js/main.4cb8d073.chunk.js"
+    "static/js/main.af7b0048.chunk.js"
   ]
 }
