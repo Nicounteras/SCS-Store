@@ -12,7 +12,7 @@ export default function Item({product}){
             <img src={product.image}/> 
             <h2>{product.product}</h2>
             <h4>Precio: ${product.price}</h4>
-            <Link to={`/productos/` + product.category + "/" + product.iD} className="button primary">Comprar</Link>
+            <Link to={`/SCS-Store/productos/` + product.category + "/" + product.iD} className="button primary">Comprar</Link>
         </article>
         </>
     )
