@@ -1,7 +1,6 @@
 import {Link} from "react-router-dom"
 import { useContext } from "react";
 import AppContext from "../../Context/useAppContext";
-import Product1 from "../../images/producto-1.jpg"
 
 export default function Item({product}){    
 
